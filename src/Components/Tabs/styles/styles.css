@@ -1,0 +1,31 @@
+.tabs {
+    width: 342px;
+    height: 45px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs button {
+    flex: 1;
+    background-color: #111111;
+    border: none;
+    height: 100%;
+}
+
+.tabs .info {
+    border-radius: 8px 0 0;
+}
+
+.tabs .preferences {
+    border-radius: 0 8px 0 0;
+}
+
+.tab-button.active {
+    background-color: black;
+    color: red;
+}
+
+.tab-content {
+    margin-top: 24px;
+}
