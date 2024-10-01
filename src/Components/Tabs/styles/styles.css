@@ -11,6 +11,12 @@
     background-color: #111111;
     border: none;
     height: 100%;
+    color: #6F6F6F;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0.05em;
+    text-align: center;
 }
 
 .tabs .info {
