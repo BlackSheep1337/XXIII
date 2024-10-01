@@ -30,9 +30,71 @@
 
 .tab-button.active {
     background-color: black;
-    color: red;
+    color: #F44C80;
 }
 
 .tab-content {
     margin-top: 26px;
+}
+
+.connection-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    gap: 26px;
+}
+
+.connection-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.connection-container li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.connection-container .content-values {
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+    padding: 6px 0;
+    width: 60px;
+}
+
+.connection-container span {
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.connection-container button {
+    border-radius: 24px 24px 24px;
+    height: 48px;
+    background-color: #111111;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 24px;
+}
+
+.footer-container button {
+    background-color: #000000;
+    border: none;
+}
+
+
+.footer-container span {
+    color: #8F8F8F;
 }

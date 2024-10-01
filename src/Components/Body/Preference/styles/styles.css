@@ -1,10 +1,49 @@
 .preference-container {
-    background-color: red;
-    display: flex;
-    flex-wrap: wrap;
     gap: 8px;
     width: 340px;
     height: 562px;
     padding: 8px;
     overflow: auto;
+}
+
+.preference-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.preference-container label {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.preference-container .location {
+    color: #404040;
+}
+
+.input-icon-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon {
+    position: absolute;
+    left: 12px;
+    color: gray;
+    font-size: 20px;
+}
+
+.preference-container form input {
+    height: 22px;
+    width: 290px;
+    background-color: #1A1A1A;
+    padding: 12px 12px 12px 36px;
+    border-radius: 24px;
+    border: none;
+    color: white;
+}
+
+.preference-container form input::placeholder {
+    color: #a3a3a3;
 }
