@@ -1,11 +1,13 @@
 .info-header {
     display: flex;
     gap: 8px;
+    margin-bottom: 26px;
 }
 
 .info-header .picture {
     width: 56px;
     height: 56px;
+    margin-left: 28px;
 }
 
 .info-header .button {

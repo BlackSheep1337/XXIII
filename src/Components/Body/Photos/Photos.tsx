@@ -1,8 +1,15 @@
-import React from 'react'
+import './styles/styles.css'
+import { photoData } from '../../../data/photoData'
 
 function Photos() {
     return (
-        <div style={{ background: 'red'}}>PHOTOS</div>
+        <section>
+            {photoData.map((photo, i) => (
+                <div key={i}>
+                    <img src={photo.url} alt={photo.alt} />
+                </div>
+            ))}
+        </section>
     )
 }
 

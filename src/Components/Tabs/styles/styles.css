@@ -17,6 +17,7 @@
     line-height: 13px;
     letter-spacing: 0.05em;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .tabs .info {
@@ -33,5 +34,5 @@
 }
 
 .tab-content {
-    margin-top: 24px;
+    margin-top: 26px;
 }
