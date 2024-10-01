@@ -4,6 +4,7 @@ import photo3 from '../Components/assets/photos/photo3.png'
 import photo4 from '../Components/assets/photos/photo4.png'
 import photo5 from '../Components/assets/photos/photo5.png'
 import photo6 from '../Components/assets/photos/photo6.png'
+import photo7 from '../Components/assets/photos/photo7.png'
 
 
 export const photoData = [
@@ -30,5 +31,17 @@ export const photoData = [
     {
         url: photo6,
         alt: "Rose",
+    },
+    {
+        url: photo7,
+        alt: "Camera roll",
+    },
+        {
+        url: photo7,
+        alt: "Camera roll",
+    },
+            {
+        url: photo7,
+        alt: "Camera roll",
     },
 ]

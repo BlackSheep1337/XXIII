@@ -3,7 +3,7 @@ import { photoData } from '../../../data/photoData'
 
 function Photos() {
     return (
-        <section>
+        <section className='photos-container'>
             {photoData.map((photo, i) => (
                 <div key={i}>
                     <img src={photo.url} alt={photo.alt} />

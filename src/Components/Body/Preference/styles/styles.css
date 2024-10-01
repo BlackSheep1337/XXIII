@@ -1,0 +1,10 @@
+.preference-container {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 340px;
+    height: 562px;
+    padding: 8px;
+    overflow: auto;
+}

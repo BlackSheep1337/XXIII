@@ -1,8 +1,10 @@
-import React from 'react'
+import './styles/styles.css'
 
 function Preference() {
     return (
-        <div style={{ background: 'red'}}>PREFERENCES</div>
+        <section className='preference-container'>
+            
+        </section>
     )
 }
 

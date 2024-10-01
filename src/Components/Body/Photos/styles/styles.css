@@ -1,4 +1,4 @@
-section {
+.photos-container {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
@@ -8,13 +8,13 @@ section {
     overflow: auto;
 }
 
-section div {
+.photos-container div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-section img {
+.photos-container img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
