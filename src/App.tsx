@@ -1,13 +1,21 @@
 import './App.css';
 import Tabs from './Components/Tabs/Tabs';
 import Header from './Components/Header/Header';
+import ProfileConfiguration from './Components/ProfileConfiguration/ProfileConfiguration';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
+    <Router>
+      <div className="App">
         <Header />
-        <Tabs />
-    </div>
+        <Routes>
+          <Route path="/tabs" element={<Tabs />} />
+          <Route path="/profile-configuration" element={<ProfileConfiguration />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

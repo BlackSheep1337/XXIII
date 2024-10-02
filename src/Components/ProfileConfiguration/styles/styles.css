@@ -1,0 +1,13 @@
+.config-container {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 342px;
+    height: 674px;
+    margin-top: 90px;
+    top: 170px;
+    left: 24px;
+    gap: 24px;
+    opacity: 0px;
+}
+

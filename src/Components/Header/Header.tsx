@@ -8,8 +8,11 @@ import Rose from '../assets/roses-default.png';
 import MenuItems from '../assets/Menu Items.png';
 import ImageIcon from '../assets/Imagicon.png';
 import ButtonLeft from '../assets/button - left.png';
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
+    const location = useLocation();
+
     return (
         <div className='header'>
             <div className='status-bar'>
@@ -36,17 +39,27 @@ function Header() {
                     <img className='image-icon' src={ImageIcon} alt="Icon" />
                 </div>
             </div>
+        <div className='page-titles'>
+        <Link to={location.pathname === '/profile-configuration' ? '/tabs' : '/profile-configuration'}>
+            <button className='left-button'>
+            <img src={ButtonLeft} alt="Button left" />
+            </button>
+        </Link>
 
-            <div className='page-titles'>
-                <button className='left-button'>
-                    <img src={ButtonLeft} alt="Button left" />
-                </button>
-
-                <div className='title'>
-                    <span className='profile'>PROFILE</span>
-                    <span className='config'>Configuration</span>
-                </div>
-            </div>
+        <div className='title'>
+            {location.pathname === '/profile-configuration' ? (
+            <>
+                <span className='profile'>EDIT</span>
+                <span className='config'>Configuration</span>
+            </>
+            ) : (
+            <>
+                <span className='profile'>PROFILE</span>
+                <span className='config'>Configuration</span>
+            </>
+            )}
+        </div>
+        </div>
 
         </div>
     )
