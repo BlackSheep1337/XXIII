@@ -40,7 +40,7 @@ function Header() {
                 </div>
             </div>
         <div className='page-titles'>
-        <Link to={location.pathname === '/profile-configuration' ? '/tabs' : '/profile-configuration'}>
+        <Link to={location.pathname === '/profile-configuration' ? '/' : '/profile-configuration'}>
             <button className='left-button'>
             <img src={ButtonLeft} alt="Button left" />
             </button>

@@ -11,7 +11,7 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/tabs" element={<Tabs />} />
+          <Route path="/" element={<Tabs />} />
           <Route path="/profile-configuration" element={<ProfileConfiguration />} />
         </Routes>
       </div>

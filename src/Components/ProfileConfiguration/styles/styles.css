@@ -1,13 +1,83 @@
 .config-container {
-    display: flex;
-    flex-direction: column;
-    background-color: red;
-    width: 342px;
-    height: 674px;
-    margin-top: 90px;
-    top: 170px;
-    left: 24px;
-    gap: 24px;
-    opacity: 0px;
+    margin-top: 70px;
+    width: 360px;
+    height: 650px;
+    padding: 8px;
+    overflow: auto;
 }
 
+.config-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.config-container label {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.config-container form input {
+    height: 22px;
+    width: 290px;
+    background-color: #1A1A1A;
+    padding: 12px 12px 12px 36px;
+    border-radius: 24px;
+    border: none;
+    color: white;
+}
+
+.config-container .icon {
+    margin-left: 6px;
+    color: #4A4A4A;
+}
+
+.input-icon-container .input-icon {
+    left: 300px;
+}
+
+.config-container .info {
+    color: #4A4A4A;
+}
+
+.config-info span {
+    color: white;
+}
+
+.config-identity {
+    background-color: red;
+}
+
+.config-identity {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 180px;
+    margin-top: 24px;
+    padding: 6px;
+    background-color:#1A1A1A;
+    border-radius: 16px 16px 16px 16px;
+}
+
+.config-identity span {
+    color: #999999;
+}
+
+.config-identity button {
+    margin-top: 15px;
+    background-color: #1A1A1A;
+    border: none;
+}
+
+.config-footer button {
+    margin-top: 24px;
+    background-color: black;
+    border: none;
+}
+
+.config-footer button img {
+    margin-top: 24px;
+    width: 335px;
+    background-color: black;
+    border: none;
+}
